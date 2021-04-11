@@ -52,19 +52,15 @@ class _FadeScaleTransitionSampleState extends UiStateful<FadeScaleTransitionSamp
       child: pageCenteredPageElementsContainer(
           pageElements: [
             Container(
-              child: AnimatedBuilder(
-                animation: _animationController,
-                child: FadeScaleTransition(
-                  child: Container(
-                    child: Text(language["fadedText"], style: pageCenterTitleTextStyle, textAlign: TextAlign.center),
-                    alignment: Alignment.center,
-                    width: 150.0,
-                    height: 150.0,
-                    color: Colors.grey[600].withOpacity(0.2),
-                  ),
-                  animation: _animationController,
+              child: FadeScaleTransition(
+                child: Container(
+                  child: Text(language["fadedText"], style: pageCenterTitleTextStyle, textAlign: TextAlign.center),
+                  alignment: Alignment.center,
+                  width: 150.0,
+                  height: 150.0,
+                  color: Colors.grey[600].withOpacity(0.2),
                 ),
-                builder: (context, child) => child,
+                animation: _animationController,
               ),
               alignment: Alignment.center,
               width: double.infinity,
