@@ -57,7 +57,7 @@ class _FadeThroughSampleState extends UiStateful<FadeThroughSample>{
           pageElements: [
             pageNumbContainer(pageNumber: 2),
             SizedBox(height: 10.0),
-            pageCenterTitle(title: language["firstPageTitle"]),
+            pageCenterTitle(title: language["secondPageTitle"]),
             SizedBox(height: 5.0),
             pageCenterText(text: language["pageNote"])
           ]

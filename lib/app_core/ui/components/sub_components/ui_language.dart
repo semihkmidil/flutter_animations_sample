@@ -70,11 +70,13 @@ mixin UiLanguage{
     "tr":{
       "appBarTitle":"Fade Through Örneği",
       "firstPageTitle":"İlk Sayfa",
+      "secondPageTitle":"İkinci Sayfa",
       "pageNote":"Animasyonu Görüntülemek İçin\nButona Tıklayın"
     },
     "en":{
       "appBarTitle":"Fade Through Sample",
       "firstPageTitle":"First Page",
+      "secondPageTitle":"Second Page",
       "pageNote":"For Animation Show\nClick The Button"
     }
   };
